@@ -1,0 +1,89 @@
+
+/* nav */
+.nav-sec{
+    display: flex;
+    justify-content: center;
+    background-color: #f8f9fa;
+}
+
+.navbar{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+/* banner */
+.banner-sec{
+    background-color: rgba(255, 255, 255, 0.253);
+    
+}
+.container-fluid{
+    background-image: url(/image/banner-bg.jpg);
+    background-color: #cccccc;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.banner-content{
+    width: 80%;
+    position: absolute;
+    top: 10%;    
+}
+
+.banner-text{
+    width: 50%;
+    text-align:left;
+    position: absolute;
+    right: 0;
+}
+.btn-banner{
+    padding: 0;
+    color:  rgb(253, 101, 0) ;
+}
+.btn-banner:hover{
+    background-color: rgba(253, 101, 0,0.5);
+    color: #fff;
+}
+
+/* carousel */
+.carousel-sec{
+    width: 100%;
+  
+}
+
+.carousel-indicators{
+    flex-direction: column;
+    top: 0;
+    left:80%; 
+  
+}
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(253, 101, 0);
+    border-radius: 50%;
+    opacity: .4;
+}
+
+.carousel-item{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(255, 0, 0, 0.219);
+    position: relative;
+
+}
+.carousel-img{
+    width: 40%;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    
+}
+
+
