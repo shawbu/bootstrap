@@ -12,6 +12,12 @@
     justify-content: space-between;
 }
 /* banner */
+.banner-title{
+    font-size: 6rem;
+    line-height: 6.5rem;
+    letter-spacing: 0.5rem;
+    font-weight: 900;
+}
 .banner-sec{
     background-color: rgba(255, 255, 255, 0.253);
     
@@ -146,6 +152,8 @@
 }
 .coach-name{
     opacity: 0;
+    color: #222;
+    padding: 10%;
     
 }
 .guide-col01:hover .coach-name{
@@ -157,13 +165,10 @@
 .gray:hover{
     filter: grayscale(0%); 
 }
-.coach-name{
-    color: #222;
-    padding: 10%;
-}
+
 /* price sec */
 .price-sec{
-    padding: 5% 10%;
+    padding: 5% 12%;
 }
 .price-sec h3{
     font-size: 3rem;
@@ -175,7 +180,8 @@
 }
 
 .price-mon{
-    padding: 2rem 2rem 1rem;
+    margin: 0 auto;
+    padding: 2rem 0;
     
 }
 .rounded-circle{
@@ -221,10 +227,11 @@
     width: 100%;
     position: relative;
 }
-.footer h2{
+.footer h3{
     width: 80%;
     padding: 1rem;
     margin: 0 auto;
+    font-size: 3rem;
 }
 .footer-border{
     width:40%;
@@ -246,3 +253,169 @@
     display: flex;
     margin: 0.5rem;
 }
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) { 
+    h3{
+        font-size: 2rem;
+      
+    }
+    /* banner sec */
+    .banner-title{
+        font-size: 3rem;
+        line-height: 3.5rem;
+        letter-spacing: 0.2rem;
+        font-weight: 700;
+    }
+    .banner-container{
+        height: 400px;
+    }
+
+    /* carousel sec */
+    .carousel-item h3{
+        font-size: 2rem;
+        
+    }
+    /* guide sec */
+    .guide-text h3{
+        font-size: 2rem;
+    }
+    /* price sec  */
+    .price-sec h3{
+        font-size: 2rem;
+    }
+    /* footer sec */
+    .footer h3{
+        font-size: 2rem;
+    }
+    
+
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+
+
+}
+ /* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .item-border{
+        width: 40%;
+        left: 15%;
+    }
+   
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    /* banner sec */
+
+
+    /* carousel sec */
+    
+    .item-border{
+        width: 70%;
+        height: 50%;
+        border: 3px solid rgb(253, 101, 0) ;
+        position: absolute;
+        top: 15%;
+        left: 15%;
+        padding: 1rem;
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+    .carousel-img{
+        width: 100%;
+        position: absolute;
+        bottom: 0%;
+        right:0%;
+        
+    }
+    .carousel-item h3{
+        font-size: 1.5rem;
+        color: #222;
+        position: relative;
+        margin: 2rem 0 1rem;
+        left: -15%;
+    }
+    .carousel-item p{
+        width: 100%;
+        color: #222;
+        font-size: 0.8rem;
+    }
+  
+    /* guide sec */
+    .guide-text{
+        width: 100%;
+        padding: 2rem;
+    }
+    .guide-text h3{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .guide-text p{
+        font-size: 0.8rem;
+    }
+    .row{
+        display: block;
+    }
+    
+    .guide-col01{
+        display: flex;
+        width: 100%;
+        max-height: 200px;
+    }
+    .img-fluid {
+        width: 60%;
+        object-fit: cover;
+        object-position: top;
+    }
+    .coach-name{
+        padding: 5%;
+    }
+    /* price sec */
+
+    .price-sec{
+        padding: 5% 10%;
+    }
+    .price-sec h3{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .price-col{
+        width: 60%;
+        margin: 1rem auto;
+    }
+    .price-col:hover{
+        border: 2px solid rgb(253, 101, 0);
+        margin: 1rem auto;
+        width: 70%;
+    }
+    /* footer sec */
+    .footer h3{
+        width: 80%;
+        padding: 1rem;
+        margin: 1rem auto;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .footer-border{
+        width:80%;
+        height: 40%;
+        top: 105%;
+        margin: 0 auto 1rem;
+
+    }
+    .footer-content{
+        padding: 0.3rem;
+        font-size: 0.8rem;
+        background-color: rgb(110, 110, 110);
+        color: #fff;
+        position: relative;
+        top:-30px;
+        left: -20px;
+    }
+}
+
+
+
+
